@@ -13,7 +13,7 @@ print('Qual número você quer saber o dobro, triplo e raiz quadrada? ', end='')
 numero = int(input())
 dob = numero * 2
 tri = numero *3
-raiz = numero **0.5
+raiz = pow(numero, 0.5)
 print('O dobro é: {}, o triplo é: {} e a raiz quadrada é: {}\n\n'.format(dob, tri, raiz))
 
 des = ' DESAFIO 07 '
@@ -41,16 +41,16 @@ des = ' DESAFIO 09 '
 print('{:#^30}'.format(des))
 print('Qual número você deseja saber a tabuada? ', end='')
 num = int(input())
-print('{} X 1 = {}'.format(num,num*1))
-print('{} X 2 = {}'.format(num,num*2))
-print('{} X 3 = {}'.format(num,num*3))
-print('{} X 4 = {}'.format(num,num*4))
-print('{} X 5 = {}'.format(num,num*5))
-print('{} X 6 = {}'.format(num,num*6))
-print('{} X 7 = {}'.format(num,num*7))
-print('{} X 8 = {}'.format(num,num*8))
-print('{} X 9 = {}'.format(num,num*9))
-print('{} X 10 = {}\n\n'.format(num,num*10))
+print('{} X {:2} = {}'.format(num, 1, num*1))
+print('{} X {:2} = {}'.format(num, 2, num*2))
+print('{} X {:2} = {}'.format(num, 3, num*3))
+print('{} X {:2} = {}'.format(num, 4, num*4))
+print('{} X {:2} = {}'.format(num, 5, num*5))
+print('{} X {:2} = {}'.format(num, 6, num*6))
+print('{} X {:2} = {}'.format(num, 7, num*7))
+print('{} X {:2} = {}'.format(num, 8, num*8))
+print('{} X {:2} = {}'.format(num, 9, num*9))
+print('{} X {:2} = {}\n\n'.format(num, 10, num*10))
 
 des = ' DESAFIO 010 '
 print('{:#^30}'.format(des))
