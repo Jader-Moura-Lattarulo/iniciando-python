@@ -58,7 +58,7 @@ print('{:#^30}'.format(des))
 print('Quantos reais você quer converter para dólar? R$', end='')
 reais = float(input())
 dol = reais/4.95
-print('O Dólar está equivalente a R$4,95, portanto você possui: ${:.2f}\n\'.format(dol))
+print(O Dólar está equivalente a R$4,95, portanto você possui: ${:.2f}\n\.format(dol))
 
 des = ' DESAFIO 011 '
 print('{:@^30}'.format(des))
